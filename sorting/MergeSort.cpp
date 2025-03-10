@@ -1,5 +1,5 @@
 #include<bits/stdtr1c++.h>
-using namespace std;
+ using namespace std;
      void mergeArrays(int arr1[],int arr2[],int n1, int n2,int arr3[]) 
      {
      int i = 0,j = 0,k = 0;
@@ -23,7 +23,6 @@ int main()
     int n1=4;
     int arr2[]={2,4,6,8};
     int n2=4;
-    
     int arr3[n1+n2];
     mergeArrays(arr1,arr2,n1,n2,arr3);//call the function
     cout<<"array of merging"<<"\n";
@@ -31,5 +30,5 @@ int main()
     {
         cout<<arr3[i]<<" ";
     }
-    return 0;
+    return 0 ;
 }
