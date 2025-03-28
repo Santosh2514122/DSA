@@ -1,5 +1,5 @@
 
-//find the largest element in array:
+// find the largest element in array
 /*
 #include<stdio.h>
 #include<stdbool.h>
