@@ -1,5 +1,5 @@
 //find the max different in element
-//naive solution
+// naive solution
 /*#include <stdio.h>
 int maxDiff(int arr[], int n){
     int res = arr[1] - arr[0];
