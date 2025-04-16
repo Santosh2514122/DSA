@@ -8,8 +8,8 @@ void print(vector<int> arr[], int m)
 {
 	for(int i = 0; i < m; i++)
 	{
-		for(int	j = 0; j < arr[i].size(); j++)
-			cout << arr[i][j] << " ";
+	for(int	j = 0; j < arr[i].size(); j++)
+	cout << arr[i][j] << " ";
 	}
 }
 int main()
