@@ -34,8 +34,7 @@ void leaders(int arr[], int n)
 		if(curr_ldr < arr[i])
 		{
 			curr_ldr = arr[i];
-
-			printf("%d ",curr_ldr);
+	printf("%d ",curr_ldr);
 		}
 	}
 }
