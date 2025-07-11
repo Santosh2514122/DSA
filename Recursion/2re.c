@@ -1,7 +1,6 @@
 #include<stdio.h>
    void fun(int n)
-   {
-  if(n==0)
+   {if(n==0)
   return ;
   fun(n/2);
   printf("%d\n",n%2);
